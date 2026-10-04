@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Modern Learning Management System — access your assignments and courses with a beautiful interface." />
+  <meta name="theme-color" content="#1a1f3c" />
+  <title>LMS — Learning Management System</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons 1.11.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Custom Stylesheets (layer over Bootstrap) -->
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/responsive.css" />
+</head>
+<body>
+  <!-- Top Progress Bar (YouTube/GitHub-style smooth loading indicator) -->
+  <div id="top-progress-bar" class="top-progress-bar"></div>
+
+  <!-- App Shell -->
+  <div id="app" class="app-shell">
+
+    <!-- Toast notification container -->
+    <div id="toast-container" class="toast-container" role="alert" aria-live="polite"></div>
+
+    <!-- Navigation bar (hidden until logged in) -->
+    <header id="navbar" class="navbar hidden" role="banner">
+      <div class="navbar-inner">
+        <div class="navbar-brand" id="navbar-brand" role="button" tabindex="0" aria-label="Go to Dashboard">
+          <div class="brand-icon">
+            <i class="bi bi-mortarboard-fill"></i>
+          </div>
+          <span class="brand-name">LMS Portal</span>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="app-nav-links navbar-nav" id="navbar-nav" aria-label="Main Navigation">
+          <button id="nav-dashboard-btn" class="nav-btn active" aria-label="Go to Dashboard">
+            <i class="bi bi-grid-1x2-fill"></i>
+            <span>Dashboard</span>
+          </button>
+          <button id="nav-courses-btn" class="nav-btn" aria-label="Go to Courses">
+            <i class="bi bi-collection-fill"></i>
+            <span>Courses</span>
+          </button>
+        </nav>
+
+        <!-- Mobile hamburger -->
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Nav actions -->
+        <div class="navbar-actions">
+          <div class="user-info" id="nav-user-info">
+            <div class="user-avatar" id="nav-user-avatar" aria-hidden="true">?</div>
+            <div class="user-details">
+              <span class="user-name" id="nav-user-name">Student</span>
+              <span class="user-nim" id="nav-user-nim">NIM: —</span>
+            </div>
+          </div>
+          <button id="logout-btn" class="btn btn-ghost btn-sm" aria-label="Log out of your account">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Logout</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main layout -->
+    <div class="main-layout" id="main-layout">
+
+      <!-- Sidebar (hidden until logged in) -->
+      <aside id="sidebar" class="sidebar hidden" role="complementary" aria-label="Course navigation">
+        <div class="sidebar-inner">
+          <div class="sidebar-header">
+            <h2 class="sidebar-title">
+              <i class="bi bi-journals me-2" style="font-size:1.1rem"></i>My Courses
+            </h2>
+            <button id="sidebar-close" class="sidebar-close" aria-label="Close sidebar">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+          <div id="sidebar-courses" class="sidebar-courses">
+            <!-- Course list rendered by JS -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- Sidebar overlay (mobile) -->
+      <div id="sidebar-overlay" class="sidebar-overlay hidden" aria-hidden="true"></div>
+
+      <!-- Main content area -->
+      <main id="main-content" class="main-content" role="main">
+        <!-- Views are rendered here by the router -->
+        <div id="view-container" class="view-container"></div>
+      </main>
+    </div>
+
+  </div><!-- /#app -->
+
+  <!-- Frameworks (Chart.js + Bootstrap Bundle) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript Modules (order matters) -->
+  <script src="/js/utils/dom.js"></script>
+  <script src="/js/utils/format.js"></script>
+  <script src="/js/utils/validation.js"></script>
+  <script src="/js/utils/alerts.js"></script>
+  <script src="/js/state.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/router.js"></script>
+  <script src="/js/services/authService.js"></script>
+  <script src="/js/services/assignmentService.js"></script>
+  <script src="/js/services/courseService.js"></script>
+  <script src="/js/components/login.js"></script>
+  <script src="/js/components/navbar.js"></script>
+  <script src="/js/components/sidebar.js"></script>
+  <script src="/js/components/assignmentList.js"></script>
+  <script src="/js/components/assignmentDetail.js"></script>
+  <script src="/js/components/courseList.js"></script>
+  <script src="/js/components/dashboard.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

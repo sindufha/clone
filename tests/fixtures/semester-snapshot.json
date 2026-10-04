@@ -1,0 +1,169 @@
+{
+  "note": "Synthetic test data: course names and numeric IDs only; no scraped content, grades, student accounts, or credentials.",
+  "courses": [
+    {
+      "courseName": "PEMROGRAMAN WEB I",
+      "courseUrl": "https://lms.example.test/course/view.php?id=36",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Arsitektur Enterprise",
+      "courseUrl": "https://lms.example.test/course/view.php?id=188",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Data Warehouse",
+      "courseUrl": "https://lms.example.test/course/view.php?id=182",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Keamanan Sistem Informasi",
+      "courseUrl": "https://lms.example.test/course/view.php?id=178",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Penjaminan Kualitas Perangkat Lunak",
+      "courseUrl": "https://lms.example.test/course/view.php?id=183",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Rekayasa Perangkat Lunak",
+      "courseUrl": "https://lms.example.test/course/view.php?id=177",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SIN303 PEMROGRAMAN WEB 2",
+      "courseUrl": "https://lms.example.test/course/view.php?id=119",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SIN501 KECERDASAN BUATAN",
+      "courseUrl": "https://lms.example.test/course/view.php?id=19",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SIN502 SISTEM INFORMASI GEOGRAFIS",
+      "courseUrl": "https://lms.example.test/course/view.php?id=124",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "assignments": [
+    {
+      "courseName": "PEMROGRAMAN WEB I",
+      "courseUrl": "https://lms.example.test/course/view.php?id=36",
+      "assignmentTitle": "Tugas contoh 1",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20001",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Data Warehouse",
+      "courseUrl": "https://lms.example.test/course/view.php?id=182",
+      "assignmentTitle": "Tugas contoh 2",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20002",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Data Warehouse",
+      "courseUrl": "https://lms.example.test/course/view.php?id=182",
+      "assignmentTitle": "Tugas contoh 3",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20003",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "assignmentTitle": "Tugas contoh 4",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20004",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "assignmentTitle": "Tugas contoh 5",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20005",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "assignmentTitle": "Tugas contoh 6",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20006",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "assignmentTitle": "Tugas contoh 7",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20007",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Jaringan Komputer",
+      "courseUrl": "https://lms.example.test/course/view.php?id=172",
+      "assignmentTitle": "Tugas contoh 8",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20008",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Keamanan Sistem Informasi",
+      "courseUrl": "https://lms.example.test/course/view.php?id=178",
+      "assignmentTitle": "Tugas contoh 9",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20009",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Keamanan Sistem Informasi",
+      "courseUrl": "https://lms.example.test/course/view.php?id=178",
+      "assignmentTitle": "Tugas contoh 10",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20010",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Keamanan Sistem Informasi",
+      "courseUrl": "https://lms.example.test/course/view.php?id=178",
+      "assignmentTitle": "Tugas contoh 11",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20011",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Keamanan Sistem Informasi",
+      "courseUrl": "https://lms.example.test/course/view.php?id=178",
+      "assignmentTitle": "Tugas contoh 12",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20012",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Penjaminan Kualitas Perangkat Lunak",
+      "courseUrl": "https://lms.example.test/course/view.php?id=183",
+      "assignmentTitle": "Tugas contoh 13",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20013",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SI2024 Rekayasa Perangkat Lunak",
+      "courseUrl": "https://lms.example.test/course/view.php?id=177",
+      "assignmentTitle": "Tugas contoh 14",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20014",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SIN501 KECERDASAN BUATAN",
+      "courseUrl": "https://lms.example.test/course/view.php?id=19",
+      "assignmentTitle": "Tugas contoh 15",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20015",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "courseName": "SIN502 SISTEM INFORMASI GEOGRAFIS",
+      "courseUrl": "https://lms.example.test/course/view.php?id=124",
+      "assignmentTitle": "Tugas contoh 16",
+      "assignmentUrl": "https://lms.example.test/mod/assign/view.php?id=20016",
+      "scrapedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}
